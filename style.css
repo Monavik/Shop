@@ -660,7 +660,7 @@ nav {
 .navbar ul li {
     list-style-type: none;
     padding: 10px; 
-    font-size: 1.2em;
+    font-size: 1.3em;
     text-align: center;
 }
 
@@ -701,6 +701,8 @@ header {
     font-size: 1.3em;
     padding:  25px;
     text-align: center;
+    color: #fff;
+    font-weight: 600;
 }
 
 /* SKLEP */
@@ -764,10 +766,10 @@ header {
 /* ZAPRASZAMY */
 
 .zapraszamy {
-  height: 30vh;
+  height: 20vh;
   width: 100%;
   background-image: url(https://images.pexels.com/photos/248077/pexels-photo-248077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-  background-position: center bottom;
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -812,7 +814,7 @@ fas {
 /* FOOTER */
 
 .footer {
-    height: 4vh;
+    height: 6vh;
 }
 .footer-footer {
     margin: 0;
@@ -824,7 +826,6 @@ fas {
     line-height: 4vh;
     margin: 0;
 }
-    
     
     
     
