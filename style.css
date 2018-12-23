@@ -626,7 +626,7 @@ iframe {
 /* 240px --------------------------------------------- 479px */
 
 
-@media(min-width: 240px) and (max-width: 479px) {
+@media (max-width: 479px) {
     
 
 body {
@@ -652,7 +652,6 @@ nav {
  display: flex;
  flex-direction: column;
  justify-content: center;
-  margin-bottom: 10px;
   position: relative;
  }
 .navbar ul {
@@ -668,7 +667,6 @@ nav {
 .navbar ul li a {
     text-decoration: none;
     color: #000; 
-    background-color: aqua;
 }
 
 
@@ -701,9 +699,8 @@ header {
 
 .container-hero p {
     font-size: 1.3em;
-    padding:  85px;
+    padding:  45px;
     text-align: center;
-    width: 100%;
     margin: 0;
 }
 
@@ -783,7 +780,7 @@ header {
 
 /* KONTAKT */
 .kontakt {
-    height: 100vh;
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -809,7 +806,7 @@ iframe {
 /* FOOTER */
 
 .footer {
-    height: 6vh;
+    height: 4vh;
 }
 .footer-footer {
     margin: 0;
@@ -818,7 +815,7 @@ iframe {
 .footer-footer p {
     color: #000;
     text-align: center;
-    line-height: 6vh;
+    line-height: 4vh;
     margin: 0;
 }
     
