@@ -99,6 +99,7 @@ header {
     text-align: center;
     line-height: 2em;
     font-weight: 500;
+    color: #fff;
 }
 
 /* SKLEP */
@@ -297,6 +298,7 @@ header {
     text-align: center;
     line-height: 2em;
     font-weight: 500;
+    color: #fff;
 }
 
 /* SKLEP */
@@ -460,6 +462,7 @@ nav {
 
 .navbar ul li a {
     text-decoration: none;
+    color: 000;
 }
 
 
@@ -496,6 +499,7 @@ header {
     text-align: center;
     width: 100%;
     margin: 0;
+    color: #fff;
 }
 
 /* SKLEP */
@@ -623,7 +627,7 @@ iframe {
 
 
 
-/* 240px --------------------------------------------- 479px */
+/* -------------------------------------------- 479px */
 
 
 @media (max-width: 479px) {
