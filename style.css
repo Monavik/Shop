@@ -52,7 +52,7 @@ nav {
     list-style-type: none;
     padding: 15px;
     margin: 0 25px;
-    font-size: 22px;
+    font-size: 28px;
     display: inline-block;
 }
 .navbar ul li:hover {
@@ -146,7 +146,7 @@ header {
 
 .pracownia-foto {
     width: 30%;
-    height: 70vh;
+    height: 60vh;
     background-image: url(https://images.pexels.com/photos/94843/pexels-photo-94843.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
     background-position: center center;
     background-size: cover;
@@ -231,7 +231,7 @@ body {
 }
 
 .container {
-  width: 80%;
+  width: 90%;
   margin: 0 auto; 
   display: flex;
   align-items: center;
@@ -290,7 +290,7 @@ header {
 }
 
 .container-hero p {
-    font-size: 22px;
+    font-size: 12px;
     padding: 0 185px;
     text-align: center;
     line-height: 2em;
@@ -315,7 +315,7 @@ header {
 .pracownia-txt {
     width: 70%;
     height: auto;
-    padding: 0 2.2em;
+    padding: 0 2em;
     text-align: justify;
     font-size: 1em;
 }
@@ -343,7 +343,7 @@ header {
 
 .pracownia-foto {
     width: 30%;
-    height: 70vh;
+    height: 60vh;
     background-image: url(https://images.pexels.com/photos/94843/pexels-photo-94843.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
     background-position: center center;
     background-size: cover;
@@ -447,19 +447,21 @@ nav {
   width: 100%;
   margin-bottom: 10px;
   position: relative;
+  background-color: aqua;
  }
 
 .navbar ul li {
     list-style-type: none;
     padding: 15px;
     margin: 0 25px;
-    font-size: 22px;
-    display: inline-block;
+    font-size: 1em;
+    display: block;
 }
 
 .navbar ul li a {
     text-decoration: none;
     color: #000; 
+    background-color: aqua;
 }
 
 
@@ -473,6 +475,7 @@ header {
 .logo {
     text-align: center;
     padding-bottom: 20px;
+    width: 100%;
 }
 
 .logo h1 {
