@@ -699,16 +699,16 @@ header {
 
 .container-hero p {
     font-size: 1.3em;
-    padding:  45px;
+    padding:  25px;
     text-align: center;
-    margin: 0;
 }
 
 /* SKLEP */
 
 .pracownia,
 .sklep {
-   height: 100vh;
+   height: auto;
+    padding: 10% 0;
 }
 
 .sklep-txt h1,
@@ -802,6 +802,12 @@ iframe {
 iframe {
     padding: 0 1.5em
     }
+
+fas {
+    padding: 0 5px;
+    text-decoration: none;
+    color: #000;
+}
 
 /* FOOTER */
 
