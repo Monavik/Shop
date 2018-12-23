@@ -52,7 +52,7 @@ nav {
     list-style-type: none;
     padding: 15px;
     margin: 0 25px;
-    font-size: 28px;
+    font-size: 25px;
     display: inline-block;
 }
 .navbar ul li:hover {
@@ -63,7 +63,7 @@ nav {
     color: #000; 
 }
 .navbar ul li a:hover {
-      transition: 0.5s; 
+      transition: 0.4s; 
       color: #FBC520; 
 }
 
@@ -120,6 +120,7 @@ header {
     width: 70%;
     height: 70vh;
     padding: 0 2.2em;
+    font-size: 1em;
     text-align: justify;
 }
 .pracownia-txt p:nth-child(3),
@@ -127,6 +128,7 @@ header {
     text-align: center;
     font-weight: bold;
     padding-bottom: 20px;
+    font-size: 1.1em
 }
 
 
@@ -135,7 +137,7 @@ header {
 .sklep-foto {
     width: 30%; 
     max-width: inherit;
-    height: 60vh;
+    height: 70vh;
     background-image: url(https://images.unsplash.com/photo-1522777183857-cb4be6839fbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
     background-position: center center;
     background-size: cover;
@@ -146,7 +148,7 @@ header {
 
 .pracownia-foto {
     width: 30%;
-    height: 60vh;
+    height: 70vh;
     background-image: url(https://images.pexels.com/photos/94843/pexels-photo-94843.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
     background-position: center center;
     background-size: cover;
@@ -431,7 +433,7 @@ body {
 }
 
 .container {
-  width: 80%;
+  width: 100%;
   margin: 0 auto; 
   display: flex;
   align-items: center;
@@ -441,24 +443,23 @@ body {
 
 nav {
  height: auto;
- width: 100%;
- display: flex;
- flex-direction: column;
- justify-content: center;
-  margin-bottom: 10px;
-  position: relative;
+ margin: 0;    
+ position: relative;
  }
-
+.navbar ul {
+    padding: 0;
+}
 .navbar ul li {
     list-style-type: none;
-    padding: 10px; 
+    padding: 5px; 
     font-size: 1.2em;
     text-align: center;
+    margin: 0 auto;
+    width: 50%;
 }
 
 .navbar ul li a {
     text-decoration: none;
-    color: #000; 
 }
 
 
@@ -654,7 +655,9 @@ nav {
   margin-bottom: 10px;
   position: relative;
  }
-
+.navbar ul {
+    padding: 0;
+}
 .navbar ul li {
     list-style-type: none;
     padding: 10px; 
