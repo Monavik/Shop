@@ -68,7 +68,7 @@ header {
 }
 
 .container-hero {
-  height: 70vh;
+  height: 70vh;fff
   margin: 0 auto; 
   display: flex;
   align-items: center;
@@ -79,7 +79,6 @@ header {
 
 .container-hero p {
     font-size: 30px;
-    color: #fff;
     padding: 0 185px;
     text-align: center;
     line-height: 2em;
@@ -95,7 +94,6 @@ header {
 
 .sklep-txt h1,
 .pracownia-txt h1 {
-    color: #FBC520;
     text-align: center;
     font-size: 48px;
     margin-bottom: 0;
