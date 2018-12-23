@@ -5,6 +5,22 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* 
+@media(max-width: 767px) {}
+@media(min-width: 768px) and (max-width: 991px) {}
+@media(min-width: 992px) and (max-width: 1199px) {}
+@media(min-width: 1200px) {}
+*/
+
+
+
+/* 992px i więcej */
+
+
+
+@media(min-width: 992px) {
+
 body {
   margin: 0;
   color: #000;
@@ -68,7 +84,7 @@ header {
 }
 
 .container-hero {
-  height: 70vh;fff
+  height: 70vh;
   margin: 0 auto; 
   display: flex;
   align-items: center;
@@ -117,8 +133,9 @@ header {
 /* SKLEP */
 
 .sklep-foto {
-    width: 30%;
-    height: 70vh;
+    width: 30%; 
+    max-width: inherit;
+    height: 60vh;
     background-image: url(https://images.unsplash.com/photo-1522777183857-cb4be6839fbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
     background-position: center center;
     background-size: cover;
@@ -153,12 +170,9 @@ header {
   justify-content: center;
 }
 
-.zapraszamy-word p {
-    font-size: 68px;
-    font-weight: 600;
-    color: #FBC520;
-}
+
 /* KONTAKT */
+    
 .kontakt {
     height: 60vh;
     display: flex;
@@ -192,4 +206,602 @@ header {
     text-align: center;
     line-height: 8vh;
     margin: 0;
+}
+
+}
+
+
+
+
+
+
+
+
+/* 768px ---------------------------------------------------------------- 991px */
+
+
+@media(min-width: 768px) and (max-width: 991px) {
+    
+body {
+  margin: 0;
+  color: #000;
+  font-family: 'Source Sans Pro', sans-serif;    
+  font-family: Cinzel, serif;
+  position: relative; 
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto; 
+  display: flex;
+  align-items: center;
+}
+
+/* NAVBAR */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 100%;
+  margin-bottom: 10px;
+  position: relative;
+ }
+
+.navbar ul li {
+    list-style-type: none;
+    padding: 15px;
+    margin: 0 25px;
+    font-size: 22px;
+    display: inline-block;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #000; 
+}
+
+
+
+/* HERO */
+
+header {
+  height: 100vh;
+}
+
+.logo {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.container-hero {
+  height: 70vh;
+  margin: 0 auto; 
+  display: flex;
+  align-items: center;
+  background: url(https://cdn.stocksnap.io/img-thumbs/960w/UYXUME7MJV.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container-hero p {
+    font-size: 22px;
+    padding: 0 185px;
+    text-align: center;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+/* SKLEP */
+
+.pracownia,
+.sklep {
+   height: 100vh;
+}
+
+.sklep-txt h1,
+.pracownia-txt h1 {
+    text-align: center;
+    font-size: 3em;
+    margin: 0 auto;
+}
+
+.sklep-txt,
+.pracownia-txt {
+    width: 70%;
+    height: auto;
+    padding: 0 2.2em;
+    text-align: justify;
+    font-size: 1em;
+}
+.pracownia-txt p:nth-child(3),
+.sklep-txt p:nth-child(3) {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+
+/* SKLEP */
+
+.sklep-foto {
+    width: 30%; 
+    max-width: inherit;
+    height: 60vh;
+    background-image: url(https://images.unsplash.com/photo-1522777183857-cb4be6839fbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* PRACOWNIA */
+
+.pracownia-foto {
+    width: 30%;
+    height: 70vh;
+    background-image: url(https://images.pexels.com/photos/94843/pexels-photo-94843.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* ZAPRASZAMY */
+
+.zapraszamy {
+  height: 28vh;
+  width: 100%;
+  background-image: url(https://images.pexels.com/photos/248077/pexels-photo-248077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* KONTAKT */
+.kontakt {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overmap,
+.godziny p {
+    padding: 0 2em;
+    font-size: 1em;
+    font-weight: 800;
+    text-align: center;
+}
+
+/* FOOTER */
+
+.footer {
+    height: 8vh;
+}
+.footer-footer {
+    margin: 0;
+}
+
+.footer-footer p {
+    color: #000;
+    text-align: center;
+    line-height: 8vh;
+    margin: 0;
+}
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+/* 320px ----------------------------------------- 767px */
+
+
+@media(min-width: 320px) and (max-width: 767px) {
+    
+    
+body {
+  margin: 0;
+  color: #000;
+  font-family: 'Source Sans Pro', sans-serif;    
+  font-family: Cinzel, serif;
+  position: relative; 
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto; 
+  display: flex;
+  align-items: center;
+}
+
+/* NAVBAR */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 100%;
+  margin-bottom: 10px;
+  position: relative;
+ }
+
+.navbar ul li {
+    list-style-type: none;
+    padding: 15px;
+    margin: 0 25px;
+    font-size: 22px;
+    display: inline-block;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #000; 
+}
+
+
+
+/* HERO */
+
+header {
+  height: 100vh;
+}
+
+.logo {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.container-hero {
+  height: 70vh;
+  margin: 0 auto; 
+  display: flex;
+  align-items: center;
+  background: url(https://cdn.stocksnap.io/img-thumbs/960w/UYXUME7MJV.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container-hero p {
+    font-size: 22px;
+    padding: 0 185px;
+    text-align: center;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+/* SKLEP */
+
+.pracownia,
+.sklep {
+   height: 100vh;
+}
+
+.sklep-txt h1,
+.pracownia-txt h1 {
+    text-align: center;
+    font-size: 3em;
+    margin: 0 auto;
+}
+
+.sklep-txt,
+.pracownia-txt {
+    width: 70%;
+    height: auto;
+    padding: 0 2.2em;
+    text-align: justify;
+    font-size: 1em;
+}
+.pracownia-txt p:nth-child(3),
+.sklep-txt p:nth-child(3) {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+
+/* SKLEP */
+
+.sklep-foto {
+    width: 30%; 
+    max-width: inherit;
+    height: 60vh;
+    background-image: url(https://images.unsplash.com/photo-1522777183857-cb4be6839fbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* PRACOWNIA */
+
+.pracownia-foto {
+    width: 30%;
+    height: 70vh;
+    background-image: url(https://images.pexels.com/photos/94843/pexels-photo-94843.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* ZAPRASZAMY */
+
+.zapraszamy {
+  height: 28vh;
+  width: 100%;
+  background-image: url(https://images.pexels.com/photos/248077/pexels-photo-248077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* KONTAKT */
+.kontakt {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overmap,
+.godziny p {
+    padding: 0 2em;
+    font-size: 0.6em;
+    font-weight: 800;
+    text-align: center;
+}
+
+/* FOOTER */
+
+.footer {
+    height: 6vh;
+}
+.footer-footer {
+    margin: 0;
+}
+
+.footer-footer p {
+    color: #000;
+    text-align: center;
+    line-height: 6vh;
+    margin: 0;
+}
+    
+    
+    
+}
+
+
+
+
+
+
+
+/* 240px --------------------------------------------- 319px */
+
+
+@media(min-width: 240px) and (max-width: 319px) {
+    
+
+body {
+  margin: 0;
+  color: #000;
+  font-family: 'Source Sans Pro', sans-serif;    
+  font-family: Cinzel, serif;
+  position: relative; 
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto; 
+  display: flex;
+  align-items: center;
+}
+
+/* NAVBAR */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 100%;
+  margin-bottom: 10px;
+  position: relative;
+ }
+
+.navbar ul li {
+    list-style-type: none;
+    padding: 15px;
+    margin: 0 25px;
+    font-size: 22px;
+    display: inline-block;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #000; 
+}
+
+
+
+/* HERO */
+
+header {
+  height: 100vh;
+}
+
+.logo {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.container-hero {
+  height: 70vh;
+  margin: 0 auto; 
+  display: flex;
+  align-items: center;
+  background: url(https://cdn.stocksnap.io/img-thumbs/960w/UYXUME7MJV.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container-hero p {
+    font-size: 30px;
+    padding: 0 185px;
+    text-align: center;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+/* SKLEP */
+
+.pracownia,
+.sklep {
+    height: 100vh;
+}
+
+.sklep-txt h1,
+.pracownia-txt h1 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 0;
+}
+
+.sklep-txt,
+.pracownia-txt {
+    width: 70%;
+    height: 70vh;
+    padding: 0 2.2em;
+    text-align: justify;
+}
+.pracownia-txt p:nth-child(3),
+.sklep-txt p:nth-child(3) {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+
+/* SKLEP */
+
+.sklep-foto {
+    width: 30%; 
+    max-width: inherit;
+    height: 60vh;
+    background-image: url(https://images.unsplash.com/photo-1522777183857-cb4be6839fbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* PRACOWNIA */
+
+.pracownia-foto {
+    width: 30%;
+    height: 70vh;
+    background-image: url(https://images.pexels.com/photos/94843/pexels-photo-94843.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* ZAPRASZAMY */
+
+.zapraszamy {
+  height: 42vh;
+  width: 100%;
+  background-image: url(https://images.pexels.com/photos/248077/pexels-photo-248077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* KONTAKT */
+.kontakt {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overmap,
+.godziny p {
+    padding: 0 4em;
+    font-size: 1em;
+    font-weight: 800;
+    text-align: center;
+}
+
+/* FOOTER */
+
+.footer {
+    height: 6vh;
+}
+.footer-footer {
+    margin: 0;
+}
+
+.footer-footer p {
+    color: #000;
+    text-align: center;
+    line-height: 6vh;
+    margin: 0;
+}
+
+    
+    
 }
