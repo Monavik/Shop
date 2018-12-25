@@ -13,7 +13,11 @@ html {
 @media(min-width: 1200px) {}
 */
 
-
+.sklep-txt p,
+.pracownia-txt p {
+    font-family: 'Merriweather', serif;
+    font-size: 0.9em;
+}
 
 /* 992px i więcej */
 
@@ -27,7 +31,6 @@ body {
   font-family: 'Merriweather', serif;    
   font-family: Cinzel, serif;
   position: relative; 
-  background-color: #E4E1D8;
 }
 
 .container {
@@ -132,12 +135,7 @@ header {
     padding-bottom: 20px;
     font-size: 1.1em;
 }
-.sklep-txt p,
-.pracownia-txt p {
-    font-family: 'Merriweather', serif;
-    text-transform: uppercase;
-    font-size: 0.9em;
-}
+
 
 
 /* SKLEP */
