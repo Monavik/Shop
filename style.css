@@ -132,6 +132,11 @@ header {
     padding-bottom: 20px;
     font-size: 1.1em
 }
+.sklep-txt p:last-child,
+.pracownia-txt p:last-child {
+  font-family: Merriweather, serif;
+  text-transform: uppercase;
+  }
 
 
 /* SKLEP */
