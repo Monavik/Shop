@@ -132,8 +132,8 @@ header {
     padding-bottom: 20px;
     font-size: 1.1em
 }
-.sklep-txt p:last-child,
-.pracownia-txt p:last-child {
+.sklep-txt p,
+.pracownia-txt p {
   font-family: 'Merriweather', serif;
   text-transform: uppercase;
   }
