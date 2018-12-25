@@ -124,6 +124,7 @@ header {
     padding: 0 2.2em;
     font-size: .8em;
     text-align: justify;
+    color: yellow;
 }
 .pracownia-txt p:nth-child(3),
 .sklep-txt p:nth-child(3) {
