@@ -27,7 +27,7 @@ body {
   font-family: 'Merriweather', serif;    
   font-family: Cinzel, serif;
   position: relative; 
-  background-color: #f2f2f2;
+  background-color: #E4E1D8;
 }
 
 .container {
@@ -124,7 +124,6 @@ header {
     padding: 0 2.2em;
     font-size: .8em;
     text-align: justify;
-    color: yellow;
 }
 .pracownia-txt p:nth-child(3),
 .sklep-txt p:nth-child(3) {
@@ -132,14 +131,12 @@ header {
     font-weight: bold;
     padding-bottom: 20px;
     font-size: 1.1em;
-    color: blue;
 }
 .sklep-txt p,
 .pracownia-txt p {
     font-family: 'Merriweather', serif;
     text-transform: uppercase;
-    font-size: 0.8em;
-    color: red;
+    font-size: 0.9em;
 }
 
 
