@@ -136,10 +136,10 @@ header {
 }
 .sklep-txt p,
 .pracownia-txt p {
-  font-family: 'Merriweather', serif;
-  text-transform: uppercase;
-  font-size: 0.8em;
-  color: red;
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: red;
 }
 
 
