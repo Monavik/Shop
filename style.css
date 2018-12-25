@@ -13,11 +13,7 @@ html {
 @media(min-width: 1200px) {}
 */
 
-.sklep-txt p,
-.pracownia-txt p {
-    font-family: 'Merriweather', serif;
-    font-size: 0.9em;
-}
+
 
 /* 992px i więcej */
 
@@ -112,14 +108,6 @@ header {
 .sklep {
     height: 100vh;
 }
-
-.sklep-txt h1,
-.pracownia-txt h1 {
-    text-align: center;
-    font-size: 48px;
-    margin-bottom: 0;
-}
-
 .sklep-txt,
 .pracownia-txt {
     width: 70%;
@@ -128,6 +116,19 @@ header {
     font-size: .8em;
     text-align: justify;
 }
+.sklep-txt p,
+.pracownia-txt p {
+    font-family: 'Merriweather', serif;
+    font-size: 0.9em;
+}
+.sklep-txt h1,
+.pracownia-txt h1 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 0;
+}
+
+
 .pracownia-txt p:nth-child(3),
 .sklep-txt p:nth-child(3) {
     text-align: center;
