@@ -131,12 +131,14 @@ header {
     font-weight: bold;
     padding-bottom: 20px;
     font-size: 1.1em;
+    color: blue;
 }
 .sklep-txt p,
 .pracownia-txt p {
   font-family: 'Merriweather', serif;
   text-transform: uppercase;
   font-size: 0.8em;
+  color: red;
 }
 
 
