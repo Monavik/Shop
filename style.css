@@ -24,7 +24,7 @@ html {
 body {
   margin: 0;
   color: #000;
-  font-family: 'Source Sans Pro', sans-serif;    
+  font-family: 'Merriweather', serif;    
   font-family: Cinzel, serif;
   position: relative; 
 }
@@ -108,7 +108,19 @@ header {
 .sklep {
     height: 100vh;
 }
-
+.sklep-txt,
+.pracownia-txt {
+    width: 70%;
+    height: 70vh;
+    padding: 0 2.2em;
+    font-size: .8em;
+    text-align: justify;
+}
+.sklep-txt p,
+.pracownia-txt p {
+    font-family: 'Merriweather', serif;
+    font-size: 0.9em;
+}
 .sklep-txt h1,
 .pracownia-txt h1 {
     text-align: center;
@@ -116,21 +128,15 @@ header {
     margin-bottom: 0;
 }
 
-.sklep-txt,
-.pracownia-txt {
-    width: 70%;
-    height: 70vh;
-    padding: 0 2.2em;
-    font-size: 1em;
-    text-align: justify;
-}
+
 .pracownia-txt p:nth-child(3),
 .sklep-txt p:nth-child(3) {
     text-align: center;
     font-weight: bold;
     padding-bottom: 20px;
-    font-size: 1.1em
+    font-size: 1.1em;
 }
+
 
 
 /* SKLEP */
@@ -139,7 +145,7 @@ header {
     width: 30%; 
     max-width: inherit;
     height: 70vh;
-    background-image: url(https://images.unsplash.com/photo-1522777183857-cb4be6839fbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-image: url(https://cdn.stocksnap.io/img-thumbs/960w/V6XSRDWN2G.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
