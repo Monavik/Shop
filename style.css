@@ -24,7 +24,6 @@ html {
 body {
   margin: 0;
   color: #000;
-  font-family: 'Merriweather', serif;    
   font-family: Cinzel, serif;
   position: relative; 
 }
@@ -112,14 +111,20 @@ header {
 .pracownia-txt {
     width: 70%;
     height: 70vh;
-    padding: 0 2.2em;
-    font-size: .8em;
+    font-size: .9em;
     text-align: justify;
 }
-.sklep-txt p,
-.pracownia-txt p {
-    font-family: 'Merriweather', serif;
-    font-size: 0.9em;
+.pracownia-txt {
+    padding: 0 0 0 5em;
+}    
+.sklep-txt {
+    padding: 0 5em 0 0;    
+}
+.sklep-txt p:last-child,
+.pracownia-txt p:last-child {
+    font-family: 'Crimson Text', serif;
+    font-size: 1.2em;
+    line-height: 1.3em;
 }
 .sklep-txt h1,
 .pracownia-txt h1 {
@@ -135,6 +140,7 @@ header {
     font-weight: bold;
     padding-bottom: 20px;
     font-size: 1.1em;
+    text-transform: uppercase;
 }
 
 
