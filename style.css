@@ -141,8 +141,7 @@ ol.carousel-indicators li.active {
 
 .carousel-caption h5 {
     font-size: 40px;
-    padding-top: 100px;
-    padding-bottom: 20px;
+    width: 30%;
 }
 
     
