@@ -26,3 +26,12 @@ $(document).ready(function(){
     } // End if
   });
 });
+
+
+/* SLIDESHOW */
+
+
+
+
+/* AUTOMATIC SLIDESHOW */
+
