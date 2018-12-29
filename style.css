@@ -222,7 +222,7 @@ ol.carousel-indicators li.active {
   height: 72vh;
   width: 100%;
   background-image: url(https://images.pexels.com/photos/248077/pexels-photo-248077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-  background-position: center top;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
