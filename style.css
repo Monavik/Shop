@@ -71,7 +71,7 @@ nav {
 /* HERO */
 
 header {
-  height: 100vh;
+  height: auto;
 }
 
 .logo {
@@ -152,7 +152,8 @@ ol.carousel-indicators li.active {
 
 .pracownia,
 .sklep {
-    height: 100vh;
+    height: auto;
+    margin: 50px auto;
 }
 .sklep-txt,
 .pracownia-txt {
