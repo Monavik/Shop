@@ -325,7 +325,7 @@ nav {
 /* HERO */
 
 header {
-  height: 100vh;
+  height: auto;
 }
 
 .logo {
@@ -363,7 +363,9 @@ header {
 */
     
     /* SLIDER */
-    
+.carousel {
+    margin-bottom: 40px;
+}    
 ol.carousel-indicators li {
   width: 10px;
   height: 10px;
@@ -387,7 +389,7 @@ ol.carousel-indicators li.active {
 }
     
 .madeira-1 {
-  height: 30vh;
+  height: 50vh;
   width: 100%;
   background: linear-gradient( rgba(0,0,0,0.0), rgba(0, 0, 0, 0.5) ), url(https://images.pexels.com/photos/1712523/pexels-photo-1712523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500), linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)); 
   background-position: 60% 40%;
@@ -397,7 +399,7 @@ ol.carousel-indicators li.active {
 
     
 .madeira-2 {
-  height: 30vh;
+  height: 50vh;
   width: 100%;
   background: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6) ), url(https://images.pexels.com/photos/265856/pexels-photo-265856.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
   background-position: 55% 45%;
@@ -408,7 +410,7 @@ ol.carousel-indicators li.active {
 
 
 .madeira-3 {
-  height: 30vh;
+  height: 50vh;
   width: 100%;
   background: linear-gradient( rgba(0,0,0,0.0), rgba(0, 0, 0, 0.8) ), url(https://images.unsplash.com/photo-1536502829567-baf877a670b5?ixlib=rb-1.2.1&ixid=eyjhchbfawqiojeymdd9&auto=format&fit=crop&w=500&q=60);
   background-position: center;
@@ -466,8 +468,7 @@ ol.carousel-indicators li.active {
 
 .sklep-foto {
     width: 30%; 
-    max-width: inherit;
-    height: 70vh;
+    height: 80vh;
     background-image: url(https://cdn.stocksnap.io/img-thumbs/960w/V6XSRDWN2G.jpg);
     background-position: 63% 50%;
     background-size: cover;
@@ -478,7 +479,7 @@ ol.carousel-indicators li.active {
 
 .pracownia-foto {
     width: 30%;
-    height: 70vh;
+    height: 80vh;
     background-image: url(https://images.pexels.com/photos/94843/pexels-photo-94843.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
     background-position: center center;
     background-size: cover;
@@ -615,27 +616,10 @@ header {
 .logo h5 {
     padding-top: 20px
     }
-.container-hero {
-  height: auto;
-  margin: 0; 
-  text-align: center;
-  background: url(https://cdn.stocksnap.io/img-thumbs/960w/UYXUME7MJV.jpg);
-  background-size: cover;
-  background-position: center;
-}
 
-.container-hero p {
-    font-size: 1.3em;
-    padding:  85px;
-    text-align: center;
-    width: 100%;
-    margin: 0;
-    color: #fff;
-}
-
-    
     
     /* SLIDER */
+    
 .carousel {
     margin-bottom: 30px;        
     }
@@ -665,7 +649,7 @@ ol.carousel-indicators li.active {
 .madeira-1 {
   height: 40vh;
   width: 100%;
-  background: linear-gradient( rgba(0,0,0,0.0), rgba(0, 0, 0, 0.5) ), url(https://images.pexels.com/photos/1712523/pexels-photo-1712523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); 
+  background: url(https://images.pexels.com/photos/1712523/pexels-photo-1712523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); 
   background-position: 60% 40%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -675,8 +659,7 @@ ol.carousel-indicators li.active {
 .madeira-2 {
   height: 40vh;
   width: 100%;
-  background: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6) ), url(https://images.pexels.com/photos/265856/pexels-photo-265856.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
-  background-position: 55% 45%;
+  background: url(https://images.pexels.com/photos/265856/pexels-photo-265856.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -686,7 +669,7 @@ ol.carousel-indicators li.active {
 .madeira-3 {
   height: 40vh;
   width: 100%;
-  background: linear-gradient( rgba(0,0,0,0.0), rgba(0, 0, 0, 0.8) ), url(https://images.unsplash.com/photo-1536502829567-baf877a670b5?ixlib=rb-1.2.1&ixid=eyjhchbfawqiojeymdd9&auto=format&fit=crop&w=500&q=60);
+  background: url(https://images.unsplash.com/photo-1536502829567-baf877a670b5?ixlib=rb-1.2.1&ixid=eyjhchbfawqiojeymdd9&auto=format&fit=crop&w=500&q=60);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -897,21 +880,6 @@ header {
 .logo h5 {
     padding-top: 20px
     }
-.container-hero {
-  height: auto;
-  margin: 0; 
-  text-align: center;
-  background: url(https://cdn.stocksnap.io/img-thumbs/960w/UYXUME7MJV.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-.container-hero p {
-    font-size: 1.3em;
-    padding:  25px;
-    text-align: center;
-    color: #fff;
-}
 
     
 /* SLIDER */
@@ -941,7 +909,7 @@ ol.carousel-indicators li.active {
 .madeira-1 {
   height: 30vh;
   width: 100%;
-  background: linear-gradient( rgba(0,0,0,0.0), rgba(0, 0, 0, 0.5) ), url(https://images.pexels.com/photos/1712523/pexels-photo-1712523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); 
+  background: url(https://images.pexels.com/photos/1712523/pexels-photo-1712523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); 
   background-position: 60% 40%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -951,8 +919,7 @@ ol.carousel-indicators li.active {
 .madeira-2 {
   height: 30vh;
   width: 100%;
-  background: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6) ), url(https://images.pexels.com/photos/265856/pexels-photo-265856.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
-  background-position: 55% 45%;
+  background: url(https://images.pexels.com/photos/265856/pexels-photo-265856.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -962,7 +929,7 @@ ol.carousel-indicators li.active {
 .madeira-3 {
   height: 30vh;
   width: 100%;
-  background: linear-gradient( rgba(0,0,0,0.0), rgba(0, 0, 0, 0.8) ), url(https://images.unsplash.com/photo-1536502829567-baf877a670b5?ixlib=rb-1.2.1&ixid=eyjhchbfawqiojeymdd9&auto=format&fit=crop&w=500&q=60);
+  background: url(https://images.unsplash.com/photo-1536502829567-baf877a670b5?ixlib=rb-1.2.1&ixid=eyjhchbfawqiojeymdd9&auto=format&fit=crop&w=500&q=60);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
