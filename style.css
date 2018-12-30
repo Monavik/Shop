@@ -114,7 +114,7 @@ ol.carousel-indicators li.active {
 .madeira-1 {
   height: 60vh;
   width: 100%;
-  background: linear-gradient( rgba(100,100,100,0.2), rgba(0, 0, 0, 0.8) ), url(https://images.pexels.com/photos/1712523/pexels-photo-1712523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500), linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)); 
+  background: linear-gradient( rgba(0,0,0,0.0), rgba(0, 0, 0, 0.5) ), url(https://images.pexels.com/photos/1712523/pexels-photo-1712523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500), linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)); 
   background-position: 60% 40%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -124,7 +124,7 @@ ol.carousel-indicators li.active {
 .madeira-2 {
   height: 60vh;
   width: 100%;
-  background: linear-gradient( rgba(200, 200, 200, 0.4), rgba(0, 0, 0, 0.9) ), url(https://images.pexels.com/photos/265856/pexels-photo-265856.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6) ), url(https://images.pexels.com/photos/265856/pexels-photo-265856.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
   background-position: 55% 45%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -135,7 +135,7 @@ ol.carousel-indicators li.active {
 .madeira-3 {
   height: 60vh;
   width: 100%;
-  background: linear-gradient( rgba(0,0,0,0.1), rgba(0, 0, 0, 0.8) ), url(https://images.unsplash.com/photo-1536502829567-baf877a670b5?ixlib=rb-1.2.1&ixid=eyjhchbfawqiojeymdd9&auto=format&fit=crop&w=500&q=60);
+  background: linear-gradient( rgba(0,0,0,0.0), rgba(0, 0, 0, 0.8) ), url(https://images.unsplash.com/photo-1536502829567-baf877a670b5?ixlib=rb-1.2.1&ixid=eyjhchbfawqiojeymdd9&auto=format&fit=crop&w=500&q=60);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -284,8 +284,7 @@ ol.carousel-indicators li.active {
     
 body {
   margin: 0;
-  color: #000;
-  font-family: 'Source Sans Pro', sans-serif;    
+  color: #000;  
   font-family: Cinzel, serif;
   position: relative; 
 }
@@ -341,7 +340,7 @@ header {
 .logo h5 {
     padding-top: 20px
     }
-
+/*
 .container-hero {
   height: 70vh;
   margin: 0 auto; 
@@ -352,15 +351,16 @@ header {
   background-position: center;
 }
 
+    
 .container-hero p {
     font-size: 22px;
     padding: 0 185px;
     text-align: center;
     line-height: 2em;
     font-weight: 500;
-    color: #fff;
+    color: aqua;
 }
-
+*/
     
     /* SLIDER */
     
@@ -389,7 +389,7 @@ ol.carousel-indicators li.active {
 .madeira-1 {
   height: 50vh;
   width: 100%;
-  background: linear-gradient( rgba(100,100,100,0.2), rgba(0, 0, 0, 0.8) ), url(https://images.pexels.com/photos/1712523/pexels-photo-1712523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500), linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)); 
+  background: linear-gradient( rgba(0,0,0,0.0), rgba(0, 0, 0, 0.5) ), url(https://images.pexels.com/photos/1712523/pexels-photo-1712523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500), linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)); 
   background-position: 60% 40%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -399,7 +399,7 @@ ol.carousel-indicators li.active {
 .madeira-2 {
   height: 50vh;
   width: 100%;
-  background: linear-gradient( rgba(200, 200, 200, 0.4), rgba(0, 0, 0, 0.9) ), url(https://images.pexels.com/photos/265856/pexels-photo-265856.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6) ), url(https://images.pexels.com/photos/265856/pexels-photo-265856.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
   background-position: 55% 45%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -410,7 +410,7 @@ ol.carousel-indicators li.active {
 .madeira-3 {
   height: 50vh;
   width: 100%;
-  background: linear-gradient( rgba(0,0,0,0.1), rgba(0, 0, 0, 0.8) ), url(https://images.unsplash.com/photo-1536502829567-baf877a670b5?ixlib=rb-1.2.1&ixid=eyjhchbfawqiojeymdd9&auto=format&fit=crop&w=500&q=60);
+  background: linear-gradient( rgba(0,0,0,0.0), rgba(0, 0, 0, 0.8) ), url(https://images.unsplash.com/photo-1536502829567-baf877a670b5?ixlib=rb-1.2.1&ixid=eyjhchbfawqiojeymdd9&auto=format&fit=crop&w=500&q=60);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -665,7 +665,7 @@ ol.carousel-indicators li.active {
 .madeira-1 {
   height: 40vh;
   width: 100%;
-  background: linear-gradient( rgba(100,100,100,0.2), rgba(0, 0, 0, 0.8) ), url(https://images.pexels.com/photos/1712523/pexels-photo-1712523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500), linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)); 
+  background: linear-gradient( rgba(0,0,0,0.0), rgba(0, 0, 0, 0.5) ), url(https://images.pexels.com/photos/1712523/pexels-photo-1712523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); 
   background-position: 60% 40%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -675,7 +675,7 @@ ol.carousel-indicators li.active {
 .madeira-2 {
   height: 40vh;
   width: 100%;
-  background: linear-gradient( rgba(200, 200, 200, 0.4), rgba(0, 0, 0, 0.9) ), url(https://images.pexels.com/photos/265856/pexels-photo-265856.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6) ), url(https://images.pexels.com/photos/265856/pexels-photo-265856.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
   background-position: 55% 45%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -686,7 +686,7 @@ ol.carousel-indicators li.active {
 .madeira-3 {
   height: 40vh;
   width: 100%;
-  background: linear-gradient( rgba(0,0,0,0.1), rgba(0, 0, 0, 0.8) ), url(https://images.unsplash.com/photo-1536502829567-baf877a670b5?ixlib=rb-1.2.1&ixid=eyjhchbfawqiojeymdd9&auto=format&fit=crop&w=500&q=60);
+  background: linear-gradient( rgba(0,0,0,0.0), rgba(0, 0, 0, 0.8) ), url(https://images.unsplash.com/photo-1536502829567-baf877a670b5?ixlib=rb-1.2.1&ixid=eyjhchbfawqiojeymdd9&auto=format&fit=crop&w=500&q=60);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -941,7 +941,7 @@ ol.carousel-indicators li.active {
 .madeira-1 {
   height: 30vh;
   width: 100%;
-  background: linear-gradient( rgba(100,100,100,0.2), rgba(0, 0, 0, 0.8) ), url(https://images.pexels.com/photos/1712523/pexels-photo-1712523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500), linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)); 
+  background: linear-gradient( rgba(0,0,0,0.0), rgba(0, 0, 0, 0.5) ), url(https://images.pexels.com/photos/1712523/pexels-photo-1712523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); 
   background-position: 60% 40%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -951,7 +951,7 @@ ol.carousel-indicators li.active {
 .madeira-2 {
   height: 30vh;
   width: 100%;
-  background: linear-gradient( rgba(200, 200, 200, 0.4), rgba(0, 0, 0, 0.9) ), url(https://images.pexels.com/photos/265856/pexels-photo-265856.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6) ), url(https://images.pexels.com/photos/265856/pexels-photo-265856.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
   background-position: 55% 45%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -962,7 +962,7 @@ ol.carousel-indicators li.active {
 .madeira-3 {
   height: 30vh;
   width: 100%;
-  background: linear-gradient( rgba(0,0,0,0.1), rgba(0, 0, 0, 0.8) ), url(https://images.unsplash.com/photo-1536502829567-baf877a670b5?ixlib=rb-1.2.1&ixid=eyjhchbfawqiojeymdd9&auto=format&fit=crop&w=500&q=60);
+  background: linear-gradient( rgba(0,0,0,0.0), rgba(0, 0, 0, 0.8) ), url(https://images.unsplash.com/photo-1536502829567-baf877a670b5?ixlib=rb-1.2.1&ixid=eyjhchbfawqiojeymdd9&auto=format&fit=crop&w=500&q=60);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1053,11 +1053,7 @@ ol.carousel-indicators li.active {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+    }
 
 
 /* KONTAKT */
