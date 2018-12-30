@@ -157,7 +157,7 @@ ol.carousel-indicators li.active {
 .sklep-txt,
 .pracownia-txt {
     width: 70%;
-    height: 80vh;
+    height: auto;
     font-size: 1em;
     text-align: justify;
 }
@@ -433,7 +433,7 @@ ol.carousel-indicators li.active {
 
 .pracownia,
 .sklep {
-   height: auto;
+   height: 100vh;
 }
 
 .sklep-txt h1,
@@ -643,6 +643,9 @@ header {
     
     
     /* SLIDER */
+.carousel {
+    margin-bottom: 20px;        
+    }
     
 ol.carousel-indicators li {
   width: 10px;
@@ -774,15 +777,12 @@ ol.carousel-indicators li.active {
 .zapraszamy {
   height: 36vh;
   width: 100%;
+  padding: 20px 0;
   background-image: url(https://images.pexels.com/photos/248077/pexels-photo-248077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 
