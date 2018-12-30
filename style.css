@@ -717,7 +717,7 @@ ol.carousel-indicators li.active {
 .sklep-txt p:last-child,
 .pracownia-txt p:last-child {
     font-family: Raleway, serif;
-    font-size: .9em;
+    font-size: 1em;
     line-height: 1.5em;
     font-weight: 500;
 }
