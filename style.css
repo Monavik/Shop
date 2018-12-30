@@ -228,10 +228,6 @@ ol.carousel-indicators li.active {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 
@@ -433,7 +429,7 @@ ol.carousel-indicators li.active {
 
 .pracownia,
 .sklep {
-   height: 100vh;
+   height: auto;
 }
 
 .sklep-txt h1,
@@ -471,7 +467,7 @@ ol.carousel-indicators li.active {
 .sklep-foto {
     width: 30%; 
     max-width: inherit;
-    height: auto;
+    height: 100vh;
     background-image: url(https://cdn.stocksnap.io/img-thumbs/960w/V6XSRDWN2G.jpg);
     background-position: 63% 50%;
     background-size: cover;
@@ -482,7 +478,7 @@ ol.carousel-indicators li.active {
 
 .pracownia-foto {
     width: 30%;
-    height: auto;
+    height: 90vh;
     background-image: url(https://images.pexels.com/photos/94843/pexels-photo-94843.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
     background-position: center center;
     background-size: cover;
@@ -495,15 +491,12 @@ ol.carousel-indicators li.active {
 .zapraszamy {
   height: 50vh;
   width: 100%;
+  margin-top: 60px;
   background-image: url(https://images.pexels.com/photos/248077/pexels-photo-248077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 
@@ -644,7 +637,7 @@ header {
     
     /* SLIDER */
 .carousel {
-    margin-bottom: 20px;        
+    margin-bottom: 30px;        
     }
     
 ol.carousel-indicators li {
@@ -777,7 +770,7 @@ ol.carousel-indicators li.active {
 .zapraszamy {
   height: 36vh;
   width: 100%;
-  padding: 20px 0;
+  margin: 30px 0;
   background-image: url(https://images.pexels.com/photos/248077/pexels-photo-248077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   background-position: center bottom;
   background-size: cover;
