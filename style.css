@@ -433,7 +433,7 @@ ol.carousel-indicators li.active {
 
 .pracownia,
 .sklep {
-   height: 100vh;
+   height: auto;
 }
 
 .sklep-txt h1,
@@ -592,7 +592,7 @@ nav {
 .navbar ul li {
     list-style-type: none;
     padding: 5px; 
-    font-size: 1.2em;
+    font-size: 1.3em;
     text-align: center;
 }
 
@@ -709,7 +709,7 @@ ol.carousel-indicators li.active {
 
 .pracownia,
 .sklep {
-   height: 100vh;
+   height: auto;
 }
 
 .sklep-txt h1,
@@ -772,7 +772,7 @@ ol.carousel-indicators li.active {
 /* ZAPRASZAMY */
 
 .zapraszamy {
-  height: 40vh;
+  height: 36vh;
   width: 100%;
   background-image: url(https://images.pexels.com/photos/248077/pexels-photo-248077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   background-position: center bottom;
@@ -874,7 +874,7 @@ nav {
 .navbar ul li {
     list-style-type: none;
     padding: 10px; 
-    font-size: 1.3em;
+    font-size: 1.4em;
     text-align: center;
 }
 
@@ -1075,8 +1075,8 @@ ol.carousel-indicators li.active {
     flex-direction: column;
     justify-content: center;
 }
-.map {
-    
+.address {
+    padding-top: 5px;
 }
 .overmap,
 .godziny p,
@@ -1093,7 +1093,7 @@ iframe {
     }
 
 fas {
-    padding: 0 5px;
+    padding: 0 8px;
     text-decoration: none;
     color: #000;
 }
