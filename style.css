@@ -29,7 +29,7 @@ body {
 
 .container {
   width: 100%;
-  margin: 0 auto; 
+  margin: 0; 
   display: flex;
   align-items: center;
 }
@@ -70,7 +70,7 @@ nav {
 
 header {
   height: auto;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .logo {
@@ -78,7 +78,8 @@ header {
     padding-bottom: 20px;
 }
 .logo h5 {
-    padding-top: 50px
+    padding-top: 50px;
+    font-size: 30px;
     }
 .logo h1 {
     margin: 0;
@@ -153,7 +154,7 @@ ol.carousel-indicators li.active {
 .pracownia,
 .sklep {
     height: auto;
-    margin: 20px auto;
+    margin: 30px auto;
 }
 .sklep-txt,
 .pracownia-txt {
@@ -235,7 +236,7 @@ ol.carousel-indicators li.active {
 /* KONTAKT */
     
 .kontakt {
-    height: auto;
+    height: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -256,7 +257,7 @@ ol.carousel-indicators li.active {
 /* FOOTER */
 
 .footer {
-    height: 12vh;
+    height: 10vh;
 }
 .footer-footer {
     margin: 0;
@@ -265,9 +266,9 @@ ol.carousel-indicators li.active {
 .footer-footer p {
     color: #000;
     text-align: center;
-    line-height: 12vh;
+    line-height: 10vh;
     margin: 0;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 
