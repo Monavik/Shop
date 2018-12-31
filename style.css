@@ -16,13 +16,275 @@ html {
 */
 
 
+/* 1367 i więcej */
 
-/* 992px i więcej */
+@media(min-width: 1367px) {
+
+body {
+  margin: 0;
+  color: #000;
+  font-family: Cinzel, serif;
+  position: relative; 
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto; 
+  display: flex;
+  align-items: center;
+}
+
+/* NAVBAR */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 100%;
+  position: relative;
+ }
+
+.navbar ul li {
+    list-style-type: none;
+    height: 70px;
+    padding: 0 15px;
+    margin: 0 25px;
+    font-size: 45px;
+    display: inline-block;
+}
+.navbar ul li:hover {
+      cursor: pointer; 
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #000; 
+}
+.navbar ul li a:hover {
+      transition: 0.4s; 
+      color: #FBC520; 
+}
+
+
+/* HERO */
+
+header {
+  height: auto;
+}
+
+.logo {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.logo h5 {
+    padding-top: 50px
+    }
+.logo h1 {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* SLIDER */
+    
+ol.carousel-indicators li {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+ol.carousel-indicators li.active {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+    
+.carousel-inner {
+    width: 100%;
+    margin: auto;
+} 
+
+.carousel-item {
+    width: 100%;
+    height: auto;
+}
+    
+.madeira-1 {
+  height: 60vh;
+  width: 100%;
+  background: linear-gradient( rgba(0,0,0,0.0), rgba(0, 0, 0, 0.5) ), url(https://images.pexels.com/photos/1712523/pexels-photo-1712523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); 
+  background-position: 62% 38%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+    
+.madeira-2 {
+  height: 60vh;
+  width: 100%;
+  background: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6) ), url(https://images.pexels.com/photos/265856/pexels-photo-265856.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-position: 55% 45%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+
+.madeira-3 {
+  height: 60vh;
+  width: 100%;
+  background: linear-gradient( rgba(0,0,0,0.0), rgba(0, 0, 0, 0.8) ), url(https://images.unsplash.com/photo-1536502829567-baf877a670b5?ixlib=rb-1.2.1&ixid=eyjhchbfawqiojeymdd9&auto=format&fit=crop&w=500&q=60);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.carousel-caption h5 {
+    font-size: 60px;
+    width: 30%;
+}
+
+    
+    
+/* SKLEP */
+
+.pracownia,
+.sklep {
+    height: auto;
+    margin: 20px auto;
+}
+.sklep-txt,
+.pracownia-txt {
+    width: 70%;
+    height: auto;
+    font-size: 1.6em;
+    text-align: justify;
+}
+.pracownia-txt {
+    padding: 0 0 0 5em;
+}    
+.sklep-txt {
+    padding: 0 5em 0 0;    
+}
+.sklep-txt p:last-child,
+.pracownia-txt p:last-child {
+    font-family: Raleway, serif;
+    font-size: 1em;
+    line-height: 1.8em;
+    font-weight: 500;
+}
+.sklep-txt h1,
+.pracownia-txt h1 {
+    text-align: center;
+    font-size: 68px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
+.pracownia-txt p:nth-child(3),
+.sklep-txt p:nth-child(3) {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
 
 
 
-@media(min-width: 992px) {
+/* SKLEP */
 
+.sklep-foto {
+    width: 30%; 
+    max-width: inherit;
+    height: 90vh;
+    background-image: url(https://cdn.stocksnap.io/img-thumbs/960w/V6XSRDWN2G.jpg);
+    background-position: 63% 50%;
+    background-size: cover;
+    transform: scaleX(-1);
+}
+
+/* PRACOWNIA */
+
+.pracownia-foto {
+    width: 30%;
+    height: 80vh;
+    background-image: url(https://images.pexels.com/photos/94843/pexels-photo-94843.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* ZAPRASZAMY */
+
+.zapraszamy {
+  height: 72vh;
+  width: 100%;
+  background-image: url(https://images.pexels.com/photos/248077/pexels-photo-248077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+/* KONTAKT */
+    
+.kontakt {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overmap,
+.godziny p {
+    padding: 0 4em;
+    font-size: 1em;
+    font-weight: 800;
+    text-align: center;
+}
+
+/* FOOTER */
+
+.footer {
+    height: 8vh;
+}
+.footer-footer {
+    margin: 0;
+}
+
+.footer-footer p {
+    color: #000;
+    text-align: center;
+    line-height: 8vh;
+    margin: 0;
+}
+
+
+}
+
+
+
+
+
+
+/* 992px ----------------------------------------------1366px */
+
+
+
+
+
+
+@media(min-width: 992px) and (max-width: 1366px) {
+
+    
 body {
   margin: 0;
   color: #000;
@@ -115,7 +377,7 @@ ol.carousel-indicators li.active {
 .madeira-1 {
   height: 60vh;
   width: 100%;
-  background: linear-gradient( rgba(0,0,0,0.0), rgba(0, 0, 0, 0.5) ), url(pix/car1.jpg), linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)); 
+  background: linear-gradient( rgba(0,0,0,0.0), rgba(0, 0, 0, 0.5) ), url(https://images.pexels.com/photos/1712523/pexels-photo-1712523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); 
   background-position: 62% 38%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -125,7 +387,7 @@ ol.carousel-indicators li.active {
 .madeira-2 {
   height: 60vh;
   width: 100%;
-  background: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6) ), url(pix/car2.jpeg);
+  background: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6) ), url(https://images.pexels.com/photos/265856/pexels-photo-265856.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
   background-position: 55% 45%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -136,7 +398,7 @@ ol.carousel-indicators li.active {
 .madeira-3 {
   height: 60vh;
   width: 100%;
-  background: linear-gradient( rgba(0,0,0,0.0), rgba(0, 0, 0, 0.8) ), url(pix/car3.jpg);
+  background: linear-gradient( rgba(0,0,0,0.0), rgba(0, 0, 0, 0.8) ), url(https://images.unsplash.com/photo-1536502829567-baf877a670b5?ixlib=rb-1.2.1&ixid=eyjhchbfawqiojeymdd9&auto=format&fit=crop&w=500&q=60);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -202,7 +464,7 @@ ol.carousel-indicators li.active {
     width: 30%; 
     max-width: inherit;
     height: 90vh;
-    background-image: url(pix/sklep-pic.jpg);
+    background-image: url(https://cdn.stocksnap.io/img-thumbs/960w/V6XSRDWN2G.jpg);
     background-position: 63% 50%;
     background-size: cover;
     transform: scaleX(-1);
@@ -213,7 +475,7 @@ ol.carousel-indicators li.active {
 .pracownia-foto {
     width: 30%;
     height: 80vh;
-    background-image: url(pix/pracownia.jpg);
+    background-image: url(https://images.pexels.com/photos/94843/pexels-photo-94843.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -393,7 +655,7 @@ ol.carousel-indicators li.active {
 .madeira-1 {
   height: 50vh;
   width: 100%;
-  background: linear-gradient( rgba(0,0,0,0.0), rgba(0, 0, 0, 0.5) ), url(https://images.pexels.com/photos/1712523/pexels-photo-1712523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500), linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)); 
+  background: linear-gradient( rgba(0,0,0,0.0), rgba(0, 0, 0, 0.5) ), url(https://images.pexels.com/photos/1712523/pexels-photo-1712523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); 
   background-position: 60% 40%;
   background-size: cover;
   background-repeat: no-repeat;
