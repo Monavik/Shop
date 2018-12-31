@@ -16,7 +16,7 @@ html {
 */
 
 
-/* 1367 i więcej */
+/* 1367 i-------------------------------------- więcej */
 
 @media(min-width: 1367px) {
 
@@ -79,7 +79,7 @@ header {
 }
 .logo h5 {
     padding-top: 50px;
-    font-size: 30px;
+    font-size: 35px;
     }
 .logo h1 {
     margin: 0;
@@ -156,6 +156,9 @@ ol.carousel-indicators li.active {
     height: auto;
     margin: 30px auto;
 }
+.sklep {
+    margin-bottom: 30px;        
+    }
 .sklep-txt,
 .pracownia-txt {
     width: 70%;
@@ -223,7 +226,7 @@ ol.carousel-indicators li.active {
 /* ZAPRASZAMY */
 
 .zapraszamy {
-  height: 72vh;
+  height: 52vh;
   width: 100%;
   background-image: url(https://images.pexels.com/photos/248077/pexels-photo-248077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   background-position: center;
@@ -240,6 +243,7 @@ ol.carousel-indicators li.active {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
 }
 .map {
     display: flex;
@@ -257,7 +261,7 @@ ol.carousel-indicators li.active {
 /* FOOTER */
 
 .footer {
-    height: 10vh;
+    height: 8vh;
 }
 .footer-footer {
     margin: 0;
@@ -266,9 +270,9 @@ ol.carousel-indicators li.active {
 .footer-footer p {
     color: #000;
     text-align: center;
-    line-height: 10vh;
+    line-height: 8vh;
     margin: 0;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 
