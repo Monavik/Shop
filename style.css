@@ -28,7 +28,7 @@ body {
 }
 
 .container {
-  width: 90%;
+  width: 100%;
   margin: 0 auto; 
   display: flex;
   align-items: center;
@@ -79,7 +79,7 @@ header {
 }
 .logo h5 {
     padding-top: 50px;
-    font-size: 35px;
+    font-size: 30px;
     }
 .logo h1 {
     margin: 0;
@@ -253,7 +253,7 @@ ol.carousel-indicators li.active {
 .overmap,
 .godziny p {
     padding: 0 4em;
-    font-size: 40px;
+    font-size: 1.5em;
     font-weight: 800;
     text-align: center;
 }
@@ -272,6 +272,7 @@ ol.carousel-indicators li.active {
     text-align: center;
     line-height: 8vh;
     margin: 0;
+    padding-bottom: 20px;
     font-size: 1.4em;
 }
 
